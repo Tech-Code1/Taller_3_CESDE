@@ -1,0 +1,84 @@
+.style-nav {
+    padding: 0 24px;
+    background-color: azure;
+    height: 100px;
+}
+
+.icon-style-cesde {
+    height: 30px;
+}
+
+.btn-ejercicio {
+    height: 50px;
+    border: 2px solid #e42172;
+    background-color: transparent;
+    text-decoration: none;
+    padding: 8px 16px;
+    border-radius: 8px;
+    color: rgb(21, 6, 24);
+    font-weight: bold;
+}
+
+.btn-ejercicio:hover {
+    background-color: #e42172;
+    color: #fff;
+}
+
+.main-style {
+    padding: 0 24px;
+}
+
+.img-postobon-style {
+    height: 300px;
+    width: 500px;
+}
+
+.text-principal-style {
+    color: rgb(21, 6, 24);
+}
+
+.form-style {
+    width: 500px;
+}
+
+.input-style {
+    height: 80px;
+    font-size: 24px;
+    font-weight: 700;
+    outline: none;
+    border: none;
+    background: #ddb7c7;
+    color: rgb(21, 6, 24);
+    border-radius: 10px;
+    border-bottom: 5px solid #e42172;
+    border-top: 5px solid #e42172;
+}
+
+::placeholder {
+    color: #fff;
+}
+
+.label-style {
+    color: rgb(21, 6, 24);
+    font-size: 18px;
+    font-weight: bolder;
+}
+
+.btn-calcular {
+    height: 50px;
+    background-color: #e42172;
+    text-decoration: none;
+    padding: 8px 16px;
+    border-radius: 8px;
+    font-weight: bold;
+    outline: none;
+    border: none;
+    color: #fff;
+    font-size: 18px;
+}
+
+.btn-calcular:hover {
+    border: 2px solid #e42172;
+    background-color: transparent;
+    color: rgb(21, 6, 24);
+}
