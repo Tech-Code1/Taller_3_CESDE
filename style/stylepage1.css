@@ -29,8 +29,8 @@
 }
 
 .img-postobon-style {
-    height: 300px;
-    width: 500px;
+    height: auto;
+    width: auto;
 }
 
 .text-principal-style {
@@ -75,6 +75,7 @@
     border: none;
     color: #fff;
     font-size: 18px;
+    width: 500px;
 }
 
 .btn-calcular:hover {
@@ -82,3 +83,23 @@
     background-color: transparent;
     color: rgb(21, 6, 24);
 }
+
+.correct {
+    background-color: rgb(138, 253, 199);
+    color: rgb(20, 172, 58);
+}
+
+.error {
+    background-color: rgb(253, 138, 138);
+    color: rgb(172, 20, 40);
+}
+
+.correct,
+.error {
+    height: 80px;
+    width: 500px;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: bolder;
+}
+
