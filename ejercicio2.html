@@ -36,6 +36,7 @@
 								type="number"
 								class="mt-3 input-imc text-center"
 								placeholder="Digita tu peso"
+								id="peso"
 							/>
 						</label>
 						<label class="d-flex flex-column label-imc col-6" for="">
@@ -44,25 +45,31 @@
 								type="number"
 								class="mt-3 input-imc text-center"
 								placeholder="Digita tu altura"
+								id="altura"
 							/>
 						</label>
 					</div>
 					<button
 						class="d-flex w-100 justify-content-center align-items-center mt-3 btn-imc"
+						id="btnCalcularImc"
 					>
 						Calcular
 					</button>
 					<div class="style-box px-3 py-3 mt-5">
-						<h5>Resultado:</h5>
+						<div class="d-flex justify-content-between text-center">
+							<h5>Resultado:</h5>
+							<h6 class="m-auto" id="aviso"></h6>
+						</div>
 						<div class="d-flex h-100 w-100 justify-content-around align-items-center">
 							<div
 								class="
 									position-relative
-									d-flex
+									d-none
 									justify-content-center
 									align-items-center
 									content-parrafo
 								"
+								id="contentImc"
 							>
 								<h4
 									class="
@@ -75,18 +82,19 @@
 								>
 									IMC
 								</h4>
-								<p class="parrafo-2 mt-5">o</p>
+								<p class="parrafo-2 mt-5" id="imc"></p>
 							</div>
 							<div
 								class="
 									position-relative
-									d-flex
+									d-none
 									justify-content-center
 									align-items-center
 									content-parrafo-
 									correct-clasificacion
 									danger-clasificacion
 								"
+								id="contentClasificacion"
 							>
 								<h4
 									class="
@@ -99,12 +107,14 @@
 								>
 									Clasificación
 								</h4>
-								<p class="parrafo-3 mt-5">o</p>
+								<p class="parrafo-3 mt-5 d-flex text-center" id="clasificacion"></p>
 							</div>
 						</div>
 					</div>
 				</div>
 			</div>
 		</main>
+
+		<script src="js/ejercicio2.js"></script>
 	</body>
 </html>
