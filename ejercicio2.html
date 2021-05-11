@@ -29,11 +29,80 @@
 					<img class="img-fluid" src="images/img/bodytech.jpg" alt="" />
 				</div>
 				<div class="col-4">
-					<label class="d-flex flex-column" for="">
-						Calcula tu indice de masa corporal
-						<input type="text" />
-					</label>
-					<p></p>
+					<div class="d-flex justify-content-between">
+						<label class="d-flex flex-column label-imc col-5" for="">
+							Peso:
+							<input
+								type="number"
+								class="mt-3 input-imc text-center"
+								placeholder="Digita tu peso"
+							/>
+						</label>
+						<label class="d-flex flex-column label-imc col-6" for="">
+							Altura:
+							<input
+								type="number"
+								class="mt-3 input-imc text-center"
+								placeholder="Digita tu altura"
+							/>
+						</label>
+					</div>
+					<button
+						class="d-flex w-100 justify-content-center align-items-center mt-3 btn-imc"
+					>
+						Calcular
+					</button>
+					<div class="style-box px-3 py-3 mt-5">
+						<h5>Resultado:</h5>
+						<div class="d-flex h-100 w-100 justify-content-around align-items-center">
+							<div
+								class="
+									position-relative
+									d-flex
+									justify-content-center
+									align-items-center
+									content-parrafo
+								"
+							>
+								<h4
+									class="
+										position-absolute
+										title-clasificación
+										justify-content-center
+										d-flex
+										align-items-center
+									"
+								>
+									IMC
+								</h4>
+								<p class="parrafo-2 mt-5">o</p>
+							</div>
+							<div
+								class="
+									position-relative
+									d-flex
+									justify-content-center
+									align-items-center
+									content-parrafo-
+									correct-clasificacion
+									danger-clasificacion
+								"
+							>
+								<h4
+									class="
+										position-absolute
+										title-clasificación
+										justify-content-center
+										d-flex
+										align-items-center
+									"
+								>
+									Clasificación
+								</h4>
+								<p class="parrafo-3 mt-5">o</p>
+							</div>
+						</div>
+					</div>
 				</div>
 			</div>
 		</main>

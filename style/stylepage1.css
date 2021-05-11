@@ -55,7 +55,7 @@
 }
 
 ::placeholder {
-    color: #fff;
+    color: rgba(37, 25, 39, 0.5);
 }
 
 .label-style {

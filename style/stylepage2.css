@@ -1,0 +1,69 @@
+.label-imc {
+    font-size: 24px;
+}
+
+.input-imc {
+    height: 80px;
+    border-radius: 10px;
+    border: 2px solid rgb(0, 0, 0);
+    font-weight: bolder;
+    outline: none;
+}
+
+.btn-imc {
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    height: 60px;
+    font-size: 24px;
+    font-weight: 800;
+    background-color: rgb(21, 6, 24);
+    color: #fff;
+}
+
+.btn-imc:hover {
+    color: rgb(21, 6, 24);
+    background-color: #fff;
+    border: 3px solid rgb(21, 6, 24);
+}
+
+.style-box {
+    border:3px solid rgb(21, 6, 24);
+    height: 300px;
+    border-radius: 10px;
+}
+
+.parrafo-2,
+.parrafo-3 {
+    font-size: 48px;
+    color: #fff;
+}
+
+.correct-clasificacion {
+    background-color: rgb(32, 170, 32);
+}
+
+.danger-clasificacion {
+    background-color: rgb(170, 32, 32);
+}
+
+.content-parrafo {
+    background-color: blue;
+}
+
+.content-parrafo,
+.content-parrafo-2,
+.correct-clasificacion,
+.danger-clasificacion {
+    height: 200px;
+    width: 250px;
+    border-radius: 0px 0px 10px 10px;
+}
+
+.title-clasificación {
+    color: #fff;
+    top: 0;
+    background-color: rgba(20, 4, 4, 0.445);
+    width: 100%;
+    height: 50px;
+}
