@@ -31,5 +31,13 @@ function calcularGanancia() {
     }
 }
 
-/* console.log(inputHoras);
-console.log(btnCalcular); */
+inputHoras.addEventListener("input", removeEvent)
+
+function removeEvent() {
+    let horas = Number(inputHoras.value)
+
+    if (horas == 0) {
+        parrafo.textContent = ""
+        parrafo.classList.remove("error")
+        parrafo.classList.remove("correct")
+}}
